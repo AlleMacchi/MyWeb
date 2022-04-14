@@ -1,0 +1,322 @@
+/* Colors:
+    --primary: #fdc128;
+    --primary-text: #fec739;
+    --blue: #123857;
+    --dark: #000;
+    --white: #fff; */
+.AboutGrid {
+  margin-bottom: 80px;
+}
+
+.bodyAnimationPhoto {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  min-height: 500px;
+  background: white;
+}
+
+.box {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  transform-style: preserve-3d;
+  animation: animate 20s linear infinite;
+}
+
+.box span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform-origin: center;
+  transform-style: preserve-3d;
+  transform: rotateY(calc(var(--i)*60deg)) translateZ(200px);
+  -webkit-box-reflect: below 0px linear-gradient(transparent, transparent, #0004);
+}
+
+.box span img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.btnLearnMore {
+  height: 20%;
+  padding-top: 50px;
+}
+
+.btnStartNow {
+  display: block;
+  text-align: center;
+  margin-top: 30px;
+  padding-bottom: 30px;
+}
+
+.containerIntroAnimation {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.containerIntroText {
+  /* background: orange; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.DivBlock {
+  /* background-color: green; */
+  padding-bottom: 50px;
+}
+
+.Divider {
+  height: 1px;
+  width: 90%;
+  background: #1a1b1f;
+  opacity: .3;
+  margin: 0 auto;
+  margin-bottom: 85px;
+}
+
+.DividerStartNow {
+  padding-top: 30px;
+}
+
+.footerData {
+  height: 200px;
+  background-color: #123857;
+}
+
+.gdiv {
+  /* border: solid 1px black; */
+  height: 600px;
+}
+
+.HeadingJumboSmall {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  height: auto;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  color: #1a1b1f;
+  opacity: 1.0;
+  text-align: center;
+}
+
+.Image {
+  /* background-color: orange; */
+  display: float;
+  float: right;
+  margin-bottom: 80px;
+}
+
+.imgWhat {
+  float: left;
+}
+
+img {
+  max-width: 100%;
+  height: 100%;
+}
+
+.IntroHead {
+  background-color: #123857;
+  background-image: url("./images/Background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 100px;
+}
+
+.IntroContent {
+  /* margin-bottom: 100px; */
+}
+
+.IntroTextTitle {
+  /* border: solid 1px black; */
+  color: white;
+  font-size: 300%;
+}
+
+.IntroTextSubtitle {
+  /* border: solid 1px black; */
+  color: #fec739;
+  font-size: 200%;
+}
+
+.Label {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  height: 20px;
+  color: #1a1b1f;
+  opacity: 0.6;
+}
+
+.LogoAnimato {
+  position: relative;
+  top: 0;
+  min-height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  overflow: hidden;
+  /* border: solid 1px black; */
+}
+
+.MottoLabel {
+  text-align: center;
+}
+
+.MottoWrap {
+  margin-left: auto;
+  margin-bottom: 85px;
+  margin-right: auto;
+  width: 80%;
+  align-items: center;
+}
+
+.navbar-brand {
+  color: white !important;
+  font-family: sans-serif;
+  font-size: 100%;
+  padding-top: 30px;
+  padding-right: 50px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+}
+
+.navbar-toggler {
+  margin-right: 30px;
+}
+
+.navbar-collapse {
+  text-align: center;
+}
+
+.nav-item {
+  padding-left: 30px;
+  padding-right: 50px;
+}
+
+.nav-link {
+  color: white !important;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nav-link:hover {
+  color: #fec739 !important;
+}
+
+.ParagraphLight {
+  margin-bottom: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #1a1b1f;
+  opacity: 0.6;
+}
+
+.SectionNews {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.techCircle {
+  /* background: purple; */
+  /* border: transparent;
+  background-image: url("./images/TechCircleBlue.png");
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  animation: rotation 10s infinite linear; */
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  /* border: solid 1px orange; */
+  background-image: url("./images/TechCircleBlue.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  animation: rotation 10s infinite linear;
+}
+
+.textAnimation {
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Logo {
+  height: 10em;
+}
+
+.StartNow {
+  background: #fdc128;
+}
+
+.Subtitle {
+  margin-bottom: 50px;
+}
+
+.textIntro {
+  font-family: 'Arial', sans-serif;
+  position: relative;
+  text-align: center;
+  color: white;
+  -webkit-box-reflect: below -0.46em linear-gradient(transparent, #0004);
+}
+
+.textIntro span {
+  position: relative;
+  display: inline-block;
+}
+
+.WorkHeading {
+  margin-bottom: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  height: 50px;
+  color: #1a1b1f;
+  opacity: 1.0;
+  text-align: center;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+@keyframes animate {
+  0% {
+    transform: perspective(1000px) rotateY(0deg);
+  }
+
+  100% {
+    transform: perspective(1000px) rotateY(360deg);
+  }
+}
