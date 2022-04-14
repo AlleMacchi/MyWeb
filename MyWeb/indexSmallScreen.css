@@ -1,0 +1,17 @@
+.IntroContent {
+  height: 900px;
+}
+.IntroTextTitle{
+  font-size: 200%;
+}
+.IntroTextSubtitle{
+  font-size: 150%;
+}
+.containerIntroText {
+  display: block;
+  text-align: center;
+  padding-top: 0;
+}
+.navbar-brand {
+  padding-left: 30px;
+}
