@@ -12,6 +12,15 @@
   text-align: center;
   padding-top: 0;
 }
-.navbar-brand {
-  padding-left: 30px;
+.TextLogo {
+  /* padding-left: 30px; */
+  display: block;
+  font-size: 50%;
+}
+.HomeSecrionWrap {
+    padding-left: 0;
+}
+
+.btnWhat{
+  margin-left: auto;
 }

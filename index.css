@@ -8,6 +8,10 @@
   margin-bottom: 80px;
 }
 
+.BlogHeading{
+  height: 100%;
+}
+
 .bodyAnimationPhoto {
   display: flex;
   justify-content: center;
@@ -56,7 +60,9 @@
   margin-top: 30px;
   padding-bottom: 30px;
 }
-
+.btnWhat{
+  margin-left: 70px;
+}
 .containerIntroAnimation {
   display: flex;
   justify-content: center;
@@ -93,6 +99,10 @@
 .footerData {
   height: 200px;
   background-color: #123857;
+  background-image: url("./images/Background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .gdiv {
@@ -111,7 +121,9 @@
   opacity: 1.0;
   text-align: center;
 }
-
+.HomeSecrionWrap{
+  padding-left: 70px;
+}
 .Image {
   /* background-color: orange; */
   display: float;
@@ -124,7 +136,7 @@
   float: left;
 
 
-  width: 80%;
+  width: 100%;
   position: relative;
   /* top: 50%; */
   /* left: 50%;
@@ -169,7 +181,7 @@ img {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 12px;
-  height: 20px;
+  /* height: 20px; */
   color: #1a1b1f;
   opacity: 0.6;
 }
@@ -307,7 +319,7 @@ img {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 36px;
-  height: 50px;
+  /* height: 50px; */
   color: #1a1b1f;
   opacity: 1.0;
   text-align: center;
